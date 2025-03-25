@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="P3.css">
+</head>
+<body>
+    <header>
+        Welcome!
+    </header>
+    
+    <nav class="topNav">
+        <div class="topMenu">Home</div>
+        <div class="topMenu">Products</div>
+        <div class="topMenu">Services</div>
+        <div class="topMenu">Contacts</div>
+    </nav>
+
+    <main>
+        <section id="option">
+            <div class="filter-section">
+                <p>You can narrow your search by the following checkboxes</p>
+                <input type="checkbox" id="men"><label for="men"> Men</label><br>
+                <input type="checkbox" id="women"><label for="women"> Women</label><br>
+                <button class="submit-btn">Submit</button>
+            </div>
+
+            <div class="filter-section">
+                <p>You can narrow your search by choosing a size</p>
+                <input type="checkbox" id="small"><label for="small"> Small</label><br>
+                <input type="checkbox" id="large"><label for="large"> Large</label><br>
+                <button class="submit-btn">Submit</button>
+            </div>
+        </section>
+
+        <section id="productShow">
+            <div class="myPage">
+                <div class="productCard">
+                    <div class="productTitle"><b>Shirts</b></div>
+                    <img class="productImage" src="Images/shirts.jpg" alt="Shirts">
+                    <div class="productDesc">$5.99</div>
+                </div>
+                <div class="productCard">
+                    <div class="productTitle"><b>Jeans</b></div>
+                    <img class="productImage" src="Images/jeans.jpg" alt="Jeans">
+                    <div class="productDesc">$15.99</div>
+                </div>
+                <div class="productCard">
+                    <div class="productTitle"><b>Skirts</b></div>
+                    <img class="productImage" src="Images/skirts.jpg" alt="Skirts">
+                    <div class="productDesc">$11.99</div>
+                </div>
+                <div class="productCard">
+                    <div class="productTitle"><b>Shorts</b></div>
+                    <img class="productImage" src="Images/shorts.jpg" alt="Shorts">
+                    <div class="productDesc">$8.99</div>
+                </div>
+                <div class="productCard">
+                    <div class="productTitle"><b>Dresses</b></div>
+                    <img class="productImage" src="Images/dresses.jpg" alt="Dresses">
+                    <div class="productDesc">$20.99</div>
+                </div>
+                <div class="productCard">
+                    <div class="productTitle"><b>Sweaters</b></div>
+                    <img class="productImage" src="Images/sweaters.jpg" alt="Sweaters">
+                    <div class="productDesc">$13.99</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="pagination">
+        <a href="#">&laquo;</a>
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">&raquo;</a>
+    </div>
+    <footer>
+        Copyright(c) Albany State University 2025
+    </footer>
+</body>
+</html>
